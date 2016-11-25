@@ -1,0 +1,102 @@
+body{
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  margin:0px;
+  background-color: #efeff5;
+}
+.web_name{
+    text-align: left; 
+    color: white; 
+    font-size: 40pt; 
+    text-decoration: none;
+    padding-left: 2%;
+    
+}
+.top_table{
+    background-image: url('images/blog-laptop (1).jpg');
+    background-size: 100%;
+    height: 600px;
+}
+#blog-post{
+    border: 1px solid;
+    height: 100px;
+    width: 70%;
+}
+#login{
+    border: 1px solid;
+    height: 100px;
+    width: 30%;
+    margin: 5%;
+}
+.box1{
+    border: 1px solid;
+}
+#login{
+    width: 28%;
+    height: 300px;
+    margin-left: 70%;
+    position: absolute;
+    margin-top: -802px;
+    background-color:#1ad1ff;
+    border-radius: 7px;
+}
+#blog_post{
+    width: 70%;
+    height: 800px;
+    
+    border-radius: 7px;
+}
+#block{
+    margin: 2% 0.5% 2% 1%;
+}
+#register{
+    width: 28%;
+    height: 478px;
+    margin-left: 70%;
+    position: absolute;
+    margin-top: -482px;
+    background-color:#008ae6;
+    border-radius: 7px;
+}
+.nav2{
+    text-decoration: none;
+    color: white;
+}
+.ubox{
+    height: 30px;
+    width: 70%;
+    border-radius: 8px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif; 
+    color: black;
+    margin-left: 15%;
+}
+.pbox{
+    height: 30px;
+    width: 70%;
+    margin-top: 5px;
+    border-radius: 8px;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    color: black;
+    margin-left: 15%;
+    margin-top: 3%;
+}
+.sbox{
+    margin-top: 20px;
+    border-radius: 10px;
+    background: white;
+    color: black;
+    height: 30px;
+    width: 25%;
+    margin-left: 38%;
+    font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+.footer{
+	background-color: black; 
+	height: 300px;
+    border: none;
+    color: white;
+    margin: 0;
+}
+#pp{
+    padding-left: 600px;
+    padding-top: 100px;
+}

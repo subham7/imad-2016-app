@@ -1,17 +1,55 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
     <head>
-        <link href="/ui/style.css" rel="stylesheet" />
+        <title>The Blog</title>
     </head>
+    <link href="main.css" rel="stylesheet">
     <body>
-        <div class="center">
-            <img src="/ui/madi.png" class="img-medium"/>
+        
+        <!--top part-->
+        <div class="top_table">
+            <table class="top_tab" width="100%">
+                <tr>
+                    <td width="73%"><h1 class="web_name">The Blog</h1></td>
+                    <td width="10%"><a href="#" class="nav2">Register</a></td>
+                    <td width="8%"><a href="#" class="nav2">Login</a></td>
+                    <td width="9%"><a href="#" class="nav2">About me</a></td>
+                </tr>
+            </table>
         </div>
-        <br>
-        <div class="center text-big bold">
-            Hi! I am your webapp.
+
+        <!--middle part-->
+        <div id="block">
+            <!--blog post-->
+            <div class = "box1" id = "blog_post">
+
+            </div>
+            <!--login-->
+            <div class = "box1" id = "login">
+                <h1 style="margin-top: 13%; margin-left: 35%; color: white;">Login</h1>
+                <form action="index.php" method="POST">
+                    <input type="text" placeholder="Username" name="username" class="ubox"/><br>
+                    <input type="password" placeholder="Password" name="password" class="pbox"/><br>
+                    <input type="submit" name="login"  value="Login" class="sbox"/>
+                </form>
+            </div>
+            <!--register-->
+            <div class = "box1" id = "register">
+                <h1 style="margin-top: 15%; margin-left: 31%; color: white;">Register</h1>
+                <form action="index.php" method="POST">
+                    <input type="text" placeholder="Full Name" name="name" class="ubox"/><br>
+                    <input type="text" placeholder="Username" name="username1" class="pbox"/><br>
+                    <input type="text" placeholder="Email" name="email" class="pbox"/><br>
+                    <input type="password" placeholder="Password" name="password1" class="pbox"/><br>
+                    <input type="password" placeholder="Confirm Password" name="cpassword1" class="pbox"/><br>
+                    <input type="submit" name="login"  value="Login" class="sbox"/>
+                </form>
+            </div>
         </div>
-        <script type="text/javascript" src="/ui/main.js">
-        </script>
+
+        <!--footer-->
+        <div class = "footer">
+        <p id = "pp">&copy Subham Sengupta</p>
+        </div>
     </body>
 </html>
