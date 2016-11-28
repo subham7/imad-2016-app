@@ -63,13 +63,18 @@ function loadLoginForm () {
         var password = document.getElementById('password').value;
         var email= document.getElementById('email').value;
         var full_name= document.getElementById('full_name').value;
+        if(username===''&&password==='')
+        alert("Blank entry");
+        else
+        {
+        
         console.log(username);
         console.log(password);
         request.open('POST', '/create-user', true);
         request.setRequestHeader('Content-Type', 'application/json');
         request.send(JSON.stringify({username: username, password: password, email:email, full_name:full_name}));  
         register.value = 'Registering...';
-    
+        }
     };
 }
 
