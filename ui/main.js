@@ -95,7 +95,7 @@ function loadLoggedInUser (username) {
                     <input type="text" placeholder="Username" name="username" id="username" class="ubox"/><br>
                     <input type="password" placeholder="Password" name="password" id="password" class="pbox"/><br>
                     <input type="submit" name="login"  value="Login" id="login_btn" class="sbox"/><br>
-                    <span>`+name+` is now logged in. <strong><i><a href="/logout">LOGOUT</a></i></strong></span>
+                    <span style="text-align:center">`+name+` is now logged in. <strong><i><a href="/logout">LOGOUT</a></i></strong></span>
                     `;
                     document.getElementById("login").innerHTML=content;
                     
