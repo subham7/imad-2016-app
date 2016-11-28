@@ -1,6 +1,6 @@
 function loadLoginForm () {
     
-     alert("Login form loaded");
+     
     // Submit username/password to login
     var submit = document.getElementById('login_btn');
     submit.onclick = function () {
