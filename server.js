@@ -37,7 +37,7 @@ function createTemplate (data) {
 <body>
     <div id="header">
         <span id="home"><a class="anchor" href="/">Home</a></span>
-        <span id="heading"><a href="/ui/myarticle.html">Article Valley</a></span>
+        <span id="heading"><a href="/ui/myarticle.html">Article</a></span>
         <div id=< div id="userinfo">
         </div>
     </div>
@@ -45,6 +45,7 @@ function createTemplate (data) {
     
     </div>
 <div id="articlebody">
+<h1 style="text-align:center"><strong> ${heading}</strong></h1><hr>
 ${content}
 <div id="comment_form">
     
