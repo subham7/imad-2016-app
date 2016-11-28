@@ -64,7 +64,16 @@ function loadLoginForm () {
         var email= document.getElementById('email').value;
         var full_name= document.getElementById('full_name').value;
         if(username.length <=5)
-        alert("Blank entry");
+        alert("Blank entry or Username entered is less than 5 characters.");
+        else
+        if(password.length<=5)
+        alert("Password must have atleast 5 characters");
+        else
+        if(email.length<=5)
+        alert("Enter a valid email");
+        else
+        if(full_name.length<=5)
+        alert("Your Full name has less than five characters");
         else
         {
         
