@@ -90,7 +90,14 @@ function loadLoginForm () {
 
 function loadLoggedInUser (username) {
     var name=username;
-    alert(name+' is now logged in !');
+    var content =`<h1 style="margin-top: 13%; margin-left: 35%; color: white;">Login</h1>
+            
+                    <input type="text" placeholder="Username" name="username" id="username" class="ubox"/><br>
+                    <input type="password" placeholder="Password" name="password" id="password" class="pbox"/><br>
+                    <input type="submit" name="login"  value="Login" id="login_btn" class="sbox"/><br>
+                    <span>`+name+` is now logged in. <strong><i><a href="/logout">LOGOUT</a></i></strong></span>
+                    `
+                    
 }
 
 function loadLogin () {
