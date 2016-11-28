@@ -45,7 +45,7 @@ function createTemplate (data) {
     
     </div>
 <div id="articlebody">
-<h1 style="text-align:center"><strong> ${heading}</strong></h1><hr>
+<h1 style="text-align:center"><strong> <u>${heading}</u></strong></h1><br>
 ${content}
 <div id="comment_form">
     
