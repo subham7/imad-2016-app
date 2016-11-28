@@ -49,7 +49,12 @@ ${content}
 <div id="comment_form">
     
 </div>
+<hr>
+
+<h4> Comments </h4>
+
 <div id="comments">
+
     
 </div>
 </div>
