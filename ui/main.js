@@ -63,7 +63,7 @@ function loadLoginForm () {
         var password = document.getElementById('password').value;
         var email= document.getElementById('email').value;
         var full_name= document.getElementById('full_name').value;
-        if(username===''&&password==='')
+        if(username.length <=5)
         alert("Blank entry");
         else
         {
